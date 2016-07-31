@@ -13,7 +13,8 @@ public class Main {
             }
         }
         if (terminalMode) {
-            System.out.println("Patterns mit dem KMP-Algorithmus berechnen");
+            System.out.println("Verschiebetabellen von Patterns mit dem KMP-Algorithmus berechnen");
+            System.out.println("(z.b. 'abbaaac')");
             System.out.println("Von Philipp Schuster (@phip1611)");
             System.out.println("(so wie es an der TU Dresden gelehrt wird)");
             System.out.println("===");
