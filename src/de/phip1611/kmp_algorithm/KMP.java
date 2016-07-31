@@ -10,6 +10,13 @@ package de.phip1611.kmp_algorithm;
  */
 public class KMP {
     public static int[] analyze(String pattern) {
+        if (pattern == null) {
+            throw new NullPointerException("Pattern shouldn't be null!");
+        }
+        if (pattern.isEmpty()) {
+            return new int[0];
+        }
+
         int[] verschiebetabelle = new int[pattern.length()];
         // Fortschritt zeigt bis wohin die Tabelle schon ausgefüllt ist
         int zeiger = 0, schrittweite = 1, fortschritt = 0;
