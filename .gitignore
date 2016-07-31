@@ -1,6 +1,7 @@
 *.iml
 out/
 .idea/
+src/META-INF/
 
 class
 
