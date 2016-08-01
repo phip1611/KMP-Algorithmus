@@ -6,8 +6,20 @@ import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.util.Arrays;
 
+/**
+ * WARNING!!!
+ * I admit that the code for this Swing-GUI is like the worst code
+ * ever written. It was late in the night and I was so tired...
+ * Perhaps I fix it soon.
+ */
 public class GUI {
     JFrame frame;
+    /**
+     * WARNING!!!
+     * I admit that the code for this Swing-GUI is like the worst code
+     * ever written. It was late in the night and I was so tired...
+     * Perhaps I fix it soon.
+     */
     public GUI() {
         this.frame = new JFrame("KMP-Algorithmus - Philipp Schuster");
         this.frame.setSize(500,300);
