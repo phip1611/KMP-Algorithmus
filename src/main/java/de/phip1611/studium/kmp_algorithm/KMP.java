@@ -1,4 +1,4 @@
-package de.phip1611.kmp_algorithm;
+package de.phip1611.studium.kmp_algorithm;
 
 /**
  * Von: Philipp Schuster (@phip1611)

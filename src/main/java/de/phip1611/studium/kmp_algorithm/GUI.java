@@ -1,4 +1,4 @@
-package de.phip1611.kmp_algorithm;
+package de.phip1611.studium.kmp_algorithm;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
